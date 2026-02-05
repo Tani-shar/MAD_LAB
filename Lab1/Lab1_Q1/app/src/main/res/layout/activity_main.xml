@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile App Development"
+        android:textColor="#1A237E"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="16dp" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="4dp"
+        android:background="#1A237E"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/bodyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices, such as smartphones and other handheld devices. Like web application development, mobile application development has its roots in more traditional software development. One critical difference, however, is that mobile apps are often written specifically to take advantage of the unique features of a particular mobile device."
+
+        android:textColor="#424242"
+        android:textSize="17sp"
+        android:lineSpacingExtra="6dp"
+        android:fontFamily="serif"
+
+        android:justificationMode="inter_word" />
+
+</LinearLayout>

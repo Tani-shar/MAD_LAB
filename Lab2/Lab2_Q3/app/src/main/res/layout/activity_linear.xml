@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A1A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="#B20000" android:text="red" android:gravity="center_horizontal" android:textColor="#80FFFFFF" />
+        <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="#00A600" android:text="green" android:gravity="center_horizontal" android:textColor="#80FFFFFF" />
+        <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="#0000D1" android:text="blue" android:gravity="center_horizontal" android:textColor="#80FFFFFF" />
+        <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="#B2B200" android:text="yellow" android:gravity="center_horizontal" android:textColor="#80FFFFFF" />
+    </LinearLayout>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="row one" android:textColor="#C0C0C0" android:textSize="32sp" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="row two" android:textColor="#C0C0C0" android:textSize="32sp" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="row three" android:textColor="#C0C0C0" android:textSize="32sp" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="row four" android:textColor="#C0C0C0" android:textSize="32sp" android:padding="8dp"/>
+
+</LinearLayout>
